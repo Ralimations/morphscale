@@ -1,0 +1,7 @@
+{
+  "name": "MorphScale",
+  "description": "MorphScale is a visual fitness journey tracker that uses alignment photography (ghost overlay) to create seamless time-lapse transitions of your body transformation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
