@@ -11,6 +11,15 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+.env.*
+!.env.example
+
+# Native signing material must never be committed
+*.jks
+*.keystore
+*.p12
+*.pem
 
 # Editor directories and files
 .vscode/*

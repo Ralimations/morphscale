@@ -19,6 +19,8 @@ export default defineConfig(({ mode }) => {
           name: 'MorphScale',
           short_name: 'MorphScale',
           description: 'Track your body transformation with ghost overlays',
+          display: 'standalone',
+          background_color: '#0a0a0a',
           theme_color: '#10b981',
           icons: [
             {

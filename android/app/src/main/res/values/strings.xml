@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">morphscale</string>
-    <string name="title_activity_main">morphscale</string>
+    <string name="app_name">Morph Scale</string>
+    <string name="title_activity_main">Morph Scale</string>
     <string name="package_name">d.morphscale.app</string>
     <string name="custom_url_scheme">d.morphscale.app</string>
 </resources>
