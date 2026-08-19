@@ -7,19 +7,39 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependencies and local toolchains
+node_modules/
+.tools/
+
+# Web build output
 dist
 dist-ssr
+.vite/
+coverage/
+
+# Local environment files
 *.local
 .env
 .env.*
 !.env.example
+
+# Android and Capacitor generated output
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/res/xml/config.xml
+android/local.properties
 
 # Native signing material must never be committed
 *.jks
 *.keystore
 *.p12
 *.pem
+keystore.properties
 
 # Editor directories and files
 .vscode/*
